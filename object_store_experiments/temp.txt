@@ -1,0 +1,15 @@
+https://medium.com/swlh/using-s3-just-like-a-local-file-system-in-python-497737783f11
+https://github.com/dask/s3fs
+S3Fs is a Pythonic file interface to S3. It builds on top of aiobotocore
+https://s3fs.readthedocs.io/en/latest/
+
+
+
+https://charemza.name/blog/posts/aws/python/you-might-not-need-boto-3/
+It is not a requirement to Boto 3 in order to communicate with AWS from Python: you can make requests using any HTTP client, as long as you can work out the correct headers.
+
+Asynchronous AWS API requests with asyncio
+https://archive.is/nXkCb
+
+
+https://gist.github.com/byrro/439d233636ac6894f87c1df6ff1fa298
