@@ -1,4 +1,4 @@
-# lambda-runtime
+# lambda_runtime
 
 This directory contains the main AMQP RPC Lambda runtime code.
 
