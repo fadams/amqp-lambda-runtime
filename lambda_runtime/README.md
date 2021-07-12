@@ -58,7 +58,7 @@ into the module and include:
 if __name__ == '__main__':
     launch()
 ```
-or alternatively dynamically load the module, e.g.:
+or, alternatively, dynamically load the module, e.g.:
 ```
 PYTHONPATH=.. python3 lambda_runtime_asyncio.py text_to_bytes_by_value.text_to_bytes_asyncio
 ```
@@ -76,6 +76,10 @@ however this may be overridden by specifying the required handler name with the 
 So to run the simple echo processor provided by lambda_runtime_asyncio simply run:
 ```
 PYTHONPATH=.. python3 lambda_runtime_asyncio.py
+```
+or similarly for the blocking version:
+```
+PYTHONPATH=.. python3 lambda_runtime_blocking.py
 ```
 All being well this should log a successful startup with messages similar to the following:
 ```
